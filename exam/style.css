@@ -1,0 +1,154 @@
+/* --- Global Styles --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Navigation & User Header Bar --- */
+.user-bar {
+    background-color: #ffffff;
+    padding: 12px 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.logout-btn {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    color: #c9302c;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* --- Form Container & Inputs --- */
+form {
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 350px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Hide number input spinners for Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+/* Hide number input spinners for Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* --- Status Messages --- */
+.error {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #5cb85c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* --- Data Tables --- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.delete-btn {
+    color: #d9534f;
+}
+
+.delete-btn:hover {
+    color: #c9302c;
+}
